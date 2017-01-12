@@ -11,8 +11,20 @@ h3 {
     color: #eee;
     max-height: 120px;
     min-width: 120px;
-    background-color: orangered;
     border-radius: 2px;
+}
+
+.brown {
+    background-color: brown;
+}
+.grey {
+    background-color: grey;
+}
+.tan {
+    background-color: tan;
+}
+.pink {
+    background-color: pink;
 }
 
 .module:hover {

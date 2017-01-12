@@ -1,8 +1,9 @@
 <h3>Top Puppies</h3>
 <div class="row">
     <div *ngFor="let Puppy of Puppies" (click)="gotoDetail(Puppy)" class="col-md-3">
-        <div class="module Puppy">
+        <div class="module Puppy {{Puppy.color}}">
             <h4>{{Puppy.name}}</h4>
+            <h3>{{Puppy.furType}}</h3>
         </div>
     </div>
 </div>
