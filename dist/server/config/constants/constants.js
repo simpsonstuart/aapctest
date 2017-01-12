@@ -1,0 +1,11 @@
+"use strict";
+var Constants = (function () {
+    function Constants() {
+    }
+    return Constants;
+}());
+Constants.DB_CONNECTION_STRING = "mongodb://kjdsjde333d:jrs75a43bkt45jp95r@ds161018.mlab.com:61018/aapctest";
+Object.seal(Constants);
+module.exports = Constants;
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9zZXJ2ZXIvc3JjL2NvbmZpZy9jb25zdGFudHMvY29uZmlnL2NvbnN0YW50cy9jb25zdGFudHMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUVBO0lBQUE7SUFFQSxDQUFDO0lBQUQsZ0JBQUM7QUFBRCxDQUZBLEFBRUM7QUFEVSw4QkFBb0IsR0FBVywyRUFBMkUsQ0FBQTtBQUVySCxNQUFNLENBQUMsSUFBSSxDQUFDLFNBQVMsQ0FBQyxDQUFDO0FBQ3ZCLGlCQUFTLFNBQVMsQ0FBQyIsImZpbGUiOiJjb25maWcvY29uc3RhbnRzL2NvbnN0YW50cy5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxuXG5jbGFzcyBDb25zdGFudHMge1xuICAgIHN0YXRpYyBEQl9DT05ORUNUSU9OX1NUUklORzogc3RyaW5nID0gXCJtb25nb2RiOi8va2pkc2pkZTMzM2Q6anJzNzVhNDNia3Q0NWpwOTVyQGRzMTYxMDE4Lm1sYWIuY29tOjYxMDE4L2FhcGN0ZXN0XCJcbn1cbk9iamVjdC5zZWFsKENvbnN0YW50cyk7XG5leHBvcnQgPSBDb25zdGFudHM7Il19

@@ -1,0 +1,40 @@
+<h1>{{title}}</h1>
+<h2>My Puppies</h2>
+<div class="row">
+    <div class="col-md-12">
+        <div class="error" *ngIf="error">{{error}}</div>
+        <div class="pull-right">
+            <button class="btn btn-success" (click)="addPuppy()">Add New Puppy</button>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Object Id</th>
+                    <th>Name</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let Puppy of Puppies" [class.active]="Puppy === selectedPuppy" (click)="onSelect(Puppy)">
+                    <td>{{Puppy._id}}</td>
+                    <td>{{Puppy.name}}</td>
+                    <td><button class="btn btn-danger" (click)="deletePuppy(Puppy, $event)">Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div *ngIf="selectedPuppy">
+            <h2>
+                {{selectedPuppy.name | uppercase}} is my Puppy
+            </h2>
+            <button class="btn btn-primary" (click)="gotoDetail()">View Details</button>
+        </div>
+    </div>
+</div>
