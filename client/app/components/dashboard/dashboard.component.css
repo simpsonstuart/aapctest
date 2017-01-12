@@ -26,6 +26,12 @@ h3 {
 .pink {
     background-color: pink;
 }
+.red {
+    background-color: red;
+}
+.black {
+    background-color: #0f0f0f;
+}
 
 .module:hover {
     background-color: darkred;
