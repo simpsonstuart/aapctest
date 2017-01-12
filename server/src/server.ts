@@ -5,7 +5,7 @@ import BaseRoutes = require("./config/routes/Routes");
 import bodyParser = require("body-parser");
 
 import path = require('path');
-var port: number = process.env.PORT || 3000;
+var port: number = process.env.PORT || 80;
 var env:string = process.env.NODE_ENV || 'developement';
 
 var app = express();
